@@ -1,0 +1,106 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "A title",
+      "content": "blabla",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": "482d",
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": "f808",
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": "0ad9",
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": "b3dc",
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": "e13f",
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": "d1f3",
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": "63bb",
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": "8a54",
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": "bf62",
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": "8d3e",
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": "3985",
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": "85ae",
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": "1da7",
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": "a51f",
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": "2823",
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": "a485",
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    }
+  ]
+}
