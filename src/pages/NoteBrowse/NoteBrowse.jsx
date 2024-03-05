@@ -1,6 +1,8 @@
+import NoteList from "containers/NoteList/NoteList"
+
 function NoteBrowse() {
   return (
-    <div>NoteBrowse</div>
+      <NoteList />
   )
 }
 
