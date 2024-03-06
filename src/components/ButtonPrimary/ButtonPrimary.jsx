@@ -1,8 +1,8 @@
 import s from './style.module.css'
 
-function ButtonPrimary({children, onClick}) {
+function ButtonPrimary({children, onClick, isDisabled}) {
   return (
-    <button type='button' className={`btn btn-primary ${s.button}`} onClick={onClick}>
+    <button disabled={isDisabled} type='button' className={`btn btn-primary ${s.button}`} onClick={onClick}>
         {children}
     </button>
   )
