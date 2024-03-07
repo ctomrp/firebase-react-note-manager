@@ -17,7 +17,6 @@ function Signin() {
 
   const submit = async (e) => {
     e.preventDefault()
-    console.log('submited: ',email, password );
   try{    
     const user = await AuthAPI.signin(email, password)
     dispatch(setUser(user))

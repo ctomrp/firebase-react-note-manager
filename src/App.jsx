@@ -1,4 +1,4 @@
-import { NoteAPI } from "api/api";
+import { NoteAPI } from "api/note";
 import Header from "components/Header/Header";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
@@ -18,8 +18,12 @@ function App() {
   }
 
   useEffect(() => {
-    fetchAllNotes();
+    const unsub = NoteAPI.onShouldSyncNotes(fetchAllNotes);
+    return () => {
+      unsub();
+    };
   }, []);
+
   return (
     <div>
       <Header />
