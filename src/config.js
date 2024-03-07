@@ -1,16 +1,18 @@
+import { firebaseConfig } from "configCopy";
+
 export const firebaseConfig = {
 
-    apiKey: "AIzaSyD4p5C3u7wEuHuBDTiSu7ppcOLvyoTSMvM",
+    apiKey: firebaseConfig.apiKey,
   
-    authDomain: "react-note-manager-97e7c.firebaseapp.com",
+    authDomain: firebaseConfig.authDomain,
   
-    projectId: "react-note-manager-97e7c",
+    projectId: firebaseConfig.projectId,
   
-    storageBucket: "react-note-manager-97e7c.appspot.com",
+    storageBucket: firebaseConfig.storageBucket,
   
-    messagingSenderId: "400864340604",
+    messagingSenderId: firebaseConfig.messagingSenderId,
   
-    appId: "1:400864340604:web:6b79b4d05adf2724d577f9"
+    appId: firebaseConfig.appId
   
   };
   
