@@ -5,8 +5,9 @@ import { useDispatch } from "react-redux";
 import { Outlet } from "react-router-dom";
 import { setNoteList } from "store/notes/notes-slice";
 import s from './style.module.css'
+import { withAuthRequired } from "hoc/withAuthRequired";
 
-export function App() {
+function App() {
   const dispatch = useDispatch()
 
   async function fetchAllNotes(){
@@ -25,3 +26,5 @@ export function App() {
     </div>
   </div>);
 }
+
+export const ProtectedApp = withAuthRequired(App)
