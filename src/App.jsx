@@ -4,9 +4,9 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { Outlet, useNavigate } from "react-router-dom";
 import { setNoteList } from "store/notes/notes-slice";
-import s from "./style.module.css";
 import { withAuthRequired } from "hoc/withAuthRequired";
 import ButtonPrimary from "components/ButtonPrimary/ButtonPrimary";
+import s from "./style.module.css";
 
 function App() {
   const dispatch = useDispatch();
