@@ -13,4 +13,3 @@ export const firebaseConfig = {
     appId: APP_ID
   
   };
-  
