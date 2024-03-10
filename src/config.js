@@ -1,18 +1,16 @@
-import { firebaseConfig as conf } from "configCopy";
-
 export const firebaseConfig = {
 
-    apiKey: conf.apiKey,
+    apiKey: API_KEY,
   
-    authDomain: conf.authDomain,
+    authDomain: AUTH_DOMAIN,
   
-    projectId: conf.projectId,
+    projectId: PROJECT_ID,
   
-    storageBucket: conf.storageBucket,
+    storageBucket: STORAGE_BUCKET,
   
-    messagingSenderId: conf.messagingSenderId,
+    messagingSenderId: MESSANGING_SENDER_ID,
   
-    appId: conf.appId
+    appId: APP_ID
   
   };
   
