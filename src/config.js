@@ -1,16 +1,15 @@
 export const firebaseConfig = {
 
-    apiKey: `${process.env.API_KEY}`,
+    apiKey: API_KEY,
   
-    authDomain: `${process.env.AUTH_DOMAIN}`,
+    authDomain: AUTH_DOMAIN,
   
-    projectId: `${process.env.PROJECT_ID}`,
+    projectId: PROJECT_ID,
   
-    storageBucket: `${process.env.STORAGE_BUCKET}`,
+    storageBucket: STORAGE_BUCKET,
   
-    messagingSenderId: `${process.env.MESSAGING_SENDER_ID}`,
+    messagingSenderId: MESSANGING_SENDER_ID,
   
-    appId: `${process.env.APP_ID}`
+    appId: APP_ID
   
   };
-  
